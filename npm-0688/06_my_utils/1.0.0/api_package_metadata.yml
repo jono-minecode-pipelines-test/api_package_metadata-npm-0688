@@ -1,0 +1,53 @@
+{
+    "name": "06_my_utils",
+    "version": "1.0.0",
+    "description": "WuDi test utils",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "WuDi",
+        "format",
+        "Math",
+        "utils",
+        "test"
+    ],
+    "author": {
+        "name": "WuDi"
+    },
+    "license": "MIT",
+    "_id": "06_my_utils@1.0.0",
+    "_nodeVersion": "16.15.1",
+    "_npmVersion": "8.11.0",
+    "dist": {
+        "integrity": "sha512-Iu43mxEVdMu0u6jcie0fMALtYlYNv9v/TN+HExxtfov1mSUZ287mbNjtC7yCyXvXrqn5zFwlJCHF0Z0LeSudVw==",
+        "shasum": "f255bba8487b5d936c35d8b49f8cdedcb063ffd7",
+        "tarball": "https://registry.npmjs.org/06_my_utils/-/06_my_utils-1.0.0.tgz",
+        "fileCount": 4,
+        "unpackedSize": 668,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDM7avPOVpJFwGkjkBb2g39h1m3MkoJmR03oiN9cQE/wgIgVCKEbK5rDhV/a3SkPmqO7ZferrpBPPsUfaVbeVaLssg="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiwDofACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmppFxAAiZ8MLiwkRvEolzrLTj27Z4XqeLAYmkbONApRoD8elZ8mWvts\r\nYUR24q46xixZzVJY/r+uATZqGhyegoiT/DLqFT8JoBZNbJ9/sJSjEk/0Wh3D\r\nIM1onrBtPuh8HlWhAnn1XABPkCkpiQwLktuL8KnelPNCaaYq2sHvVpDfsD0l\r\n0G2S93HWWS2BjG1Fh3n7QdZo+InFQVa4/J+hRrRbMF04JrCM8gHJeqOFW4Ve\r\nB+rbvjSw48I1B4iIux8Z+f98aXGkcFn+1ar2hWxXvZyUghwGMKCViPaT1DvN\r\nc86uQmGv84s22pvlnzrBL/L/hIcUh1Z/Tp1BFGJCDmWfVj1Rj2EvzHe/J41H\r\nri9e1YYXUW8xwPAEZJcm2bZNyKu2QnAwHFrtx+90MuBxi4RZUlBycv1grwUY\r\nzqlVOEUav1onreg7AIu32ybIwhZ4YvHrDnK9FpNlGtW8NxhUc4Jd7tazziaH\r\nqbf4llmVenC5cUi71rRgl3u0ZVV37LMEFSo8vzNI1cKXnyrRmFWjo14m8maY\r\nN+C6xItEAbi2Rk1n5qhH0wPo0ntojfbs3tpxFN0TS8PO68XxTwSA4RIg0r2y\r\nVqWl+UjNynXURlj7HFo42RQ03wdnzVWJRG9imqikbEDzZilJH3Nt/qFJpUZ1\r\nny/dO+O2wG9RBqtofY5Gnt6ZGLJkDyftx9s=\r\n=7uuT\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "baiqiovo",
+        "email": "532787678@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "baiqiovo",
+            "email": "532787678@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/06_my_utils_1.0.0_1656764959336_0.4310352743321335"
+    },
+    "_hasShrinkwrap": false
+}

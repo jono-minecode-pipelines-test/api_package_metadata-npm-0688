@@ -1,0 +1,43 @@
+{
+    "name": "04-cumt_xh_zzh",
+    "version": "2.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "_id": "04-cumt_xh_zzh@2.0.0",
+    "_nodeVersion": "22.15.0",
+    "_npmVersion": "10.9.2",
+    "dist": {
+        "integrity": "sha512-ZZwB7+2qtDl4J4KAA2ff8yTPfuYZEzT3xq9cwjBGlG2UDJXjJCD5uS/FbuZl+oOhopA6Lyztd40LUx47dVRNlw==",
+        "shasum": "bb2a21782e9ba34cf46ff27607d1756b08be5be2",
+        "tarball": "https://registry.npmjs.org/04-cumt_xh_zzh/-/04-cumt_xh_zzh-2.0.0.tgz",
+        "fileCount": 2,
+        "unpackedSize": 360,
+        "signatures": [
+            {
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+                "sig": "MEQCIFQhidBbDMzr0eWQ0+dE7grsJwbmG272YMXSAaiIewW7AiAom51ZAcki90Vt8Uiqlvb2FBRsu7zbRbVn1Tl+A0MABQ=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "lilt",
+        "email": "996911346@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "lilt",
+            "email": "996911346@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages-npm-production",
+        "tmp": "tmp/04-cumt_xh_zzh_2.0.0_1747811051906_0.23786024077251433"
+    },
+    "_hasShrinkwrap": false
+}

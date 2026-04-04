@@ -1,0 +1,78 @@
+{
+    "name": "07-luismi-router",
+    "version": "0.0.3",
+    "type": "module",
+    "main": "lib/index.js",
+    "module": "lib/index.js",
+    "exports": {
+        ".": {
+            "import": "./lib/index.js",
+            "require": "./lib/index.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "prepare": "npm run test && swc src/components src/utils src/index.jsx -d lib",
+        "preview": "vite preview",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "test:ui": "vitest --ui"
+    },
+    "dependencies": {
+        "path-to-regexp": "^7.1.0"
+    },
+    "peerDependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "@swc/cli": "^0.4.0",
+        "@swc/core": "^1.7.3",
+        "@testing-library/react": "^16.0.0",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react-swc": "^3.5.0",
+        "@vitest/ui": "^2.0.4",
+        "happy-dom": "^14.12.3",
+        "vite": "^5.3.4",
+        "vitest": "^2.0.4"
+    },
+    "_id": "07-luismi-router@0.0.3",
+    "gitHead": "cbdc17cddb2addf82d982d361452462fed2f43bf",
+    "description": "Versi\u00f3n 0",
+    "_nodeVersion": "22.2.0",
+    "_npmVersion": "10.7.0",
+    "dist": {
+        "integrity": "sha512-SNAnOczo8M0iIFzFqX6vY163E2Um5EYf+dBUgXFBQbAJcwm328L3oD4s6GpHIQWv7f4o/iJICr9EPcC22Hphew==",
+        "shasum": "dfed8eaf6b136d4161969273fb1be0a1d383550a",
+        "tarball": "https://registry.npmjs.org/07-luismi-router/-/07-luismi-router-0.0.3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 1697,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDd4X6b/7v5lzcRXJ32XCcv7x8yAkOtxBHrGSrdZduyDgIhALNPdaPY5qDNrNuy9km/jVMjK5z6tZIBCdYSvjTTcL1n"
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "luismi1191",
+        "email": "lmsg1191@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "luismi1191",
+            "email": "lmsg1191@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/07-luismi-router_0.0.3_1722428124194_0.4507912788323938"
+    },
+    "_hasShrinkwrap": false
+}

@@ -1,0 +1,50 @@
+{
+    "name": "0a_4nh_ky_y",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "mcp_02"
+    ],
+    "author": {
+        "name": "mcp_02"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "mcp_02": "^1.0.1"
+    },
+    "_id": "0a_4nh_ky_y@1.0.0",
+    "_nodeVersion": "21.7.1",
+    "_npmVersion": "10.5.0",
+    "dist": {
+        "integrity": "sha512-ET72c7nliesv9l56v8tzovDQ37Xp0IDn8Fi8ahiNG/EBRhkxwGxVdjlbJ45ghscuUEyUxSjt93aLDYJi3xqlfw==",
+        "shasum": "e6921ae8be8d4b77f0f8eead1b27ab37cdbaa603",
+        "tarball": "https://registry.npmjs.org/0a_4nh_ky_y/-/0a_4nh_ky_y-1.0.0.tgz",
+        "fileCount": 32,
+        "unpackedSize": 6593053,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDcY2WqRXgSlFpEJHvqVx4eJr7Y9MOlRU84k2lKuKl6rgIgQ1Rclbtkqsq7snZm8V/r/BF/OGDXVuVzWq2zrW8d1/k="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "doanhhy",
+        "email": "cuongqtm1993@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "doanhhy",
+            "email": "cuongqtm1993@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0a_4nh_ky_y_1.0.0_1718210101548_0.4812191392136913"
+    },
+    "_hasShrinkwrap": false
+}

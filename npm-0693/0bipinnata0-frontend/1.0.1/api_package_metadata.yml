@@ -1,0 +1,59 @@
+{
+    "name": "0bipinnata0-frontend",
+    "version": "1.0.1",
+    "description": "```sh\r npm link\r ```",
+    "main": "index.js",
+    "bin": {
+        "tom-test": "bin/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.11.18",
+        "typescript": "5.0.0-dev.20230203"
+    },
+    "dependencies": {
+        "@0bipinnata0/frontend-lib": "^1.0.0",
+        "cac": "^6.7.14"
+    },
+    "scripts": {
+        "start": "tsc -w"
+    },
+    "_id": "0bipinnata0-frontend@1.0.1",
+    "_integrity": "sha512-PUkFojgw+E5GHGF3geiC/Bw63smw46itJXqkUwF4dHCp10wCvjnUm9wNLwYWHXClXrh3BETmpwROrtA1HeQMeA==",
+    "_resolved": "C:\\Users\\light\\AppData\\Local\\Temp\\5df4256c51936be35e6ec936d191ee3c\\0bipinnata0-frontend-1.0.1.tgz",
+    "_from": "file:0bipinnata0-frontend-1.0.1.tgz",
+    "_nodeVersion": "18.12.1",
+    "_npmVersion": "8.19.2",
+    "dist": {
+        "integrity": "sha512-PUkFojgw+E5GHGF3geiC/Bw63smw46itJXqkUwF4dHCp10wCvjnUm9wNLwYWHXClXrh3BETmpwROrtA1HeQMeA==",
+        "shasum": "073b7b2f43ee86444974589a9805832f11c5dbf9",
+        "tarball": "https://registry.npmjs.org/0bipinnata0-frontend/-/0bipinnata0-frontend-1.0.1.tgz",
+        "fileCount": 5,
+        "unpackedSize": 13565,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDPuDA2vOusVHlOLrvORKZX/UlvxNzIKtSgJilpT+fkjAIgfB9ev+pkYHzSd6ibBGlcpwCLReoACCuWM4SUtPMwmTo="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJj3nw7ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo1jBAAoyJ5C38+38p/yN75iTdlHB70X8r3pW7nSarVa5OWrkb/Xtuc\r\nF8t3lGa31nr3g0AT8IW/La78I2PinJaIKrIVWPb7u7XgPiDr4aQ9TYpX1CtB\r\nuLQlFLLWwGu4xGOrC8m/D4QRg0tYBw7mrs7ptYqzWaGm08o5bZ6UmdmDpJTO\r\nn6I1aEZSGdRb3dPbdEwFwAY50zXfXhU7AEv9c0dpzF8TfBw5zM3YL/u0TrRw\r\nB8Bs6zqGNiywxqYS/aVXSbL4sEPmTjctQIoS9VrlE1l9ive3Vr0JdKqB1oWV\r\n7Q0aRnM7vdppWxFBDer2iydXYO7JBK98tBFQY2mdozU8coaq/oer3RyKkrgP\r\n+O0kvv0aZdBZTcQ6H1NN1wniAgHzHcn55OCCJaSbgzvzgLarGeLQOabNw5aT\r\nguKZIjEX0pVJ0EPrHsGx28GQKobtos1HACAMX9bZ9nUoakT3p0eDlEXAwSGe\r\n3KLQf3TDXxOYRryXU1gi6koSeg4ZjsfYg6wNdjYYV+2MsHVytPHl5lzLXBxT\r\n6FmXGizzOGfnSdodAAcbzNz7O0UISt6qFK4+jSD0LoDRPXSXoke8TQ7E2jdN\r\nn/fYw+fMCXNobu5tBxsQ12qyXpOihj1NoX5Ca5I1rEHQuw+WTppDPrW0Fy/N\r\nW3nK2HZCknaIPwKFd7vwrobUkx7bLXKvdqM=\r\n=4GOO\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "0bipinnata0",
+        "email": "odinzero@outlook.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "0bipinnata0",
+            "email": "odinzero@outlook.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0bipinnata0-frontend_1.0.1_1675525179312_0.8455968362575075"
+    },
+    "_hasShrinkwrap": false
+}

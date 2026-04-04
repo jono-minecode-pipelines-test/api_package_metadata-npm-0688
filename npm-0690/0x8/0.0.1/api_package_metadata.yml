@@ -1,0 +1,65 @@
+{
+    "name": "0x8",
+    "version": "0.0.1",
+    "keywords": [
+        "0x8",
+        "0x1",
+        "framework",
+        "bun",
+        "typescript",
+        "javascript"
+    ],
+    "author": {
+        "name": "TriexDev"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "_id": "0x8@0.0.1",
+    "maintainers": [
+        {
+            "name": "triex",
+            "email": "hi@triex.dev"
+        }
+    ],
+    "homepage": "https://github.com/Triex/0x1",
+    "bugs": {
+        "url": "https://github.com/Triex/0x1/issues"
+    },
+    "dist": {
+        "shasum": "9ac98d56384e7b577b2132db200c50bb8debc09c",
+        "tarball": "https://registry.npmjs.org/0x8/-/0x8-0.0.1.tgz",
+        "fileCount": 4,
+        "integrity": "sha512-azog362ZciswIG4ujHFn9mF4X/DR0rlcZzvzbbmUvNqhFIzFqwOmA6ZPOvzPuXxOfwpqSbIwbLXxQzou/Nmwog==",
+        "signatures": [
+            {
+                "sig": "MEQCIDoSwkoSEmEfSrwxvvC1vRPnRA6CTcuTdZ6keVcpllVNAiBM9Mv5KGp220g4BRXhw+LkyEmRiOTmrgQSkdPNgXOwKg==",
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+        ],
+        "unpackedSize": 3717
+    },
+    "main": "index.js",
+    "type": "module",
+    "engines": {
+        "bun": ">=1.0.0"
+    },
+    "scripts": {
+        "test": "echo \"This is a placeholder package for the 0x framework family.\""
+    },
+    "_npmUser": {
+        "name": "triex",
+        "email": "hi@triex.dev"
+    },
+    "repository": {
+        "url": "git+https://github.com/Triex/0x1.git",
+        "type": "git"
+    },
+    "_npmVersion": "10.9.2",
+    "description": "0x8: Reserved namespace for the 0x framework family. See 0x1 for the active framework.",
+    "directories": {},
+    "_nodeVersion": "23.9.0",
+    "_hasShrinkwrap": false,
+    "_npmOperationalInternal": {
+        "tmp": "tmp/0x8_0.0.1_1747561614470_0.3045379249158955",
+        "host": "s3://npm-registry-packages-npm-production"
+    }
+}

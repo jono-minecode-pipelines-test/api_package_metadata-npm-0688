@@ -1,0 +1,75 @@
+{
+    "name": "07-luismi-router",
+    "version": "0.0.1",
+    "_id": "07-luismi-router@0.0.1",
+    "maintainers": [
+        {
+            "name": "luismi1191",
+            "email": "lmsg1191@gmail.com"
+        }
+    ],
+    "dist": {
+        "shasum": "86963afe6e5fa5a699a14aaaecedaafa34ab99c2",
+        "tarball": "https://registry.npmjs.org/07-luismi-router/-/07-luismi-router-0.0.1.tgz",
+        "fileCount": 22,
+        "integrity": "sha512-z7HTJL1+kQNecR9J9nY7klxNTLKc46E8/HoqYdYNF5h+3TaWK9V0MohaFIPmcReXEdvHX9dKNNCtsSYj++wkjg==",
+        "signatures": [
+            {
+                "sig": "MEYCIQDBcOPAAGpHd3+R1Bobx9XOxBMGCKLjeEquYgx32bJmTwIhAMgty9IGfdotl+k1VyH1py3qxOO/afY7vDkLtWpM9kT8",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 13407
+    },
+    "main": "lib/index.js",
+    "type": "module",
+    "module": "lib/index.js",
+    "exports": {
+        ".": {
+            "import": "./lib/index.js",
+            "require": "./lib/index.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "gitHead": "71334e582f73a45c12177b7af2eb9a6c85b600aa",
+    "scripts": {
+        "dev": "vite",
+        "test": "vitest",
+        "build": "vite build",
+        "prepare": "swc ./src/*.jsx -d lib",
+        "preview": "vite preview",
+        "test:ui": "vitest --ui"
+    },
+    "_npmUser": {
+        "name": "luismi1191",
+        "email": "lmsg1191@gmail.com"
+    },
+    "_npmVersion": "10.7.0",
+    "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+    "directories": {},
+    "_nodeVersion": "22.2.0",
+    "dependencies": {
+        "path-to-regexp": "^7.1.0"
+    },
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+        "vite": "^5.3.4",
+        "vitest": "^2.0.4",
+        "@swc/cli": "^0.4.0",
+        "@swc/core": "^1.7.3",
+        "happy-dom": "^14.12.3",
+        "@vitest/ui": "^2.0.4",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@testing-library/react": "^16.0.0",
+        "@vitejs/plugin-react-swc": "^3.5.0"
+    },
+    "peerDependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/07-luismi-router_0.0.1_1722426864133_0.9795364042412129",
+        "host": "s3://npm-registry-packages"
+    }
+}
