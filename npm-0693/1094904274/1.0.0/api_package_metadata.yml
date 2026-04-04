@@ -1,0 +1,41 @@
+{
+    "name": "1094904274",
+    "version": "1.0.0",
+    "description": "",
+    "main": "aa.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "_id": "1094904274@1.0.0",
+    "_shasum": "2dd50b3c929d2ff9c93f345b1c5204d817203c30",
+    "_from": ".",
+    "_npmVersion": "2.15.1",
+    "_nodeVersion": "4.4.4",
+    "_npmUser": {
+        "name": "xuekaikai",
+        "email": "1094904274@qq.com"
+    },
+    "dist": {
+        "shasum": "2dd50b3c929d2ff9c93f345b1c5204d817203c30",
+        "tarball": "https://registry.npmjs.org/1094904274/-/1094904274-1.0.0.tgz",
+        "integrity": "sha512-ysa08S2tOs0eO/Afs16v6ctTgEPabLa8mXIn5Dn7SKUqiaGmjGcaU0cCDytcPm7tLglmTOF+6u+3SiIP/YUueA==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCICdKeY5Mj0YrNsqbQEVsCs38pijKwBdMvn6sVYu9+H0gAiBX/GMBiRO/gGI7sWgo5s6FuaHrj/yMwmJ8YzksngG8dQ=="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "xuekaikai",
+            "email": "1094904274@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/1094904274-1.0.0.tgz_1481274697246_0.9093584476504475"
+    }
+}

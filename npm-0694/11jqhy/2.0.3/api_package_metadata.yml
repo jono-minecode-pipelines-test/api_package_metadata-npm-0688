@@ -1,0 +1,45 @@
+{
+    "name": "11jqhy",
+    "version": "2.0.3",
+    "description": "11jqhy",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "markwilliams71qb"
+    },
+    "license": "ISC",
+    "_id": "11jqhy@2.0.3",
+    "_nodeVersion": "16.14.0",
+    "_npmVersion": "8.5.2",
+    "dist": {
+        "integrity": "sha512-N0evIFUkSSwqE8mklUf0hNtJfUvcU+7YB691jdlbeX7roGdA4c/3v+F2/CACdsZhB6Y5D64UgeVVan9cJUSVXw==",
+        "shasum": "cf1ecfbd080f55f662e654dcbe6563a621c13995",
+        "tarball": "https://registry.npmjs.org/11jqhy/-/11jqhy-2.0.3.tgz",
+        "fileCount": 2,
+        "unpackedSize": 787,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQC8m6n8eazKu1+5O9DrIpa2aBxppdHE7BGqEi075B0h+gIgMa4uBRsyK9WO6wcJkZgDZ8GCEcAhiOtGBy8LLIU52qo="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "markwilliams71qb",
+        "email": "markwilliams71qb@cultureleb.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "markwilliams71qb",
+            "email": "markwilliams71qb@cultureleb.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/11jqhy_2.0.3_1683447696206_0.8997074887626237"
+    },
+    "_hasShrinkwrap": false
+}

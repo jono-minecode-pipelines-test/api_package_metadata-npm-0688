@@ -1,0 +1,45 @@
+{
+    "name": "11webs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "timer.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "_id": "11webs@1.0.0",
+    "_nodeVersion": "16.17.0",
+    "_npmVersion": "8.15.0",
+    "dist": {
+        "integrity": "sha512-XH9BdPEmAu2nG9K3tyoAr3OOG5qsEMFx8gq9dgaGiZWhMTOQ5UwcoOfQje+0AgE/spbMRQWmcun8DhKCk7vQbA==",
+        "shasum": "b9c1f91bd98ba8f8ef02ad7c3c4b2fbf84802dd7",
+        "tarball": "https://registry.npmjs.org/11webs/-/11webs-1.0.0.tgz",
+        "fileCount": 2,
+        "unpackedSize": 1100,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCICaHfTMs5qsw3wWm5PdMdf3cM59Tm+IzL1eKf/TqXAgxAiEA+X5ZeDZ4A3bYVUQNrMyQVS449o+i9xp1Bh4ZGVj5TL4="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjbQHVACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpVDBAAjdz30+R+3u0Bu3BtQl0V5DqgCrTcQTMhfktLkCYHDhCnQ1XD\r\ntosIwRLzN+BR5/X3v06Y0IKbY2LHFlCQnVGN9dtTJvdAlA2+XZ3OuRdQaT5N\r\n2T4MX71872UnajA43lZ04P/27Qz5RqF6DQOs451G4/BEGiz16VJX8/kaxBR+\r\njBXXJTtB9dWxspJhJIFCo0xvfkUt7j+dzVcxlUrEq42ha1ymUQoe8HuyqNE5\r\ncQLfs35HmOjLzMMdyoLcEMOHzZ+Ef0lHU1Pphj+ENF3f1SjN+pOhmuxQF9Wi\r\njEGTgBd1mZ21lbyL0JnnJsm77tHTkZtrNmJZCkYlFMFC5oa0rOk9Gz5f1ytX\r\n41knTKXInQaxMDLbPmWA8NfsTNMHl1FZa/ABbMhcUShonDU5GeSNCALRm/wi\r\nr+QhTthZT5BzaEJA2zu2hJp2Z/8//EQBzLPJnsI0ajsNQ8ka4PgwLxP8auSu\r\nBVFn5UQFzIBYUkg/ZphlOUOYSHgJR1ipDmzIwUSBv6sqEc3lg4K0IxMzTEWg\r\nSnXTAQ0F6A9l0u3b7X6cBqoC33lwXzCF5D+8uu8rDDbKLtdB0sCgNVOqQLrN\r\ncqjj7BdNUpg1oxq9ZtWDyQFVzAeZIcBVoCoYnktsVzTcyY0n/OtaRu9sllKg\r\nRUjjH+Zur3wPBs3B2vZ4zYRxleZM/7gBE7I=\r\n=eHSX\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "liyann",
+        "email": "1765399750@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "liyann",
+            "email": "1765399750@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/11webs_1.0.0_1668088277472_0.7007851265218048"
+    },
+    "_hasShrinkwrap": false
+}

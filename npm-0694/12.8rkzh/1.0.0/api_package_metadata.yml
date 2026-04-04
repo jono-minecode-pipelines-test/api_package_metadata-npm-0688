@@ -1,0 +1,45 @@
+{
+    "name": "12.8rkzh",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "_id": "12.8rkzh@1.0.0",
+    "_nodeVersion": "14.5.0",
+    "_npmVersion": "6.14.5",
+    "dist": {
+        "integrity": "sha512-a11DoY01N2eUU2PIXrVSlJ715GOiijxYWCoStNikPWu2d8Z1MkesSTu5+CArBNU2pKGCQFaQP1tYG9UqluUuFg==",
+        "shasum": "3e3ac4d53aa7f5657bc212df85c38f7ffd732121",
+        "tarball": "https://registry.npmjs.org/12.8rkzh/-/12.8rkzh-1.0.0.tgz",
+        "fileCount": 2,
+        "unpackedSize": 222,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfzs49CRA9TVsSAnZWagAAvssP/0D3PtcsPUaT+mStSjgq\nXlXUryXDiYh3gJOx8tKXKypABtf8DaIpc+VkmsXpZ2GqftJDmoqwIlacmyTn\nB2ZWrapP277KQERivTcjuy2+YFTTZdVXHN6iTv2whWsrhgQEXbXCI+bTY9N9\nXTmZYkSjPGZoBELE8UqHYeoeUPpwn2HUeUzTme93DpDmLl1V7qXrWMOEtNSt\nUKkNAhi1HNbxAe0IWmgQN4xUweYsYSxJWIGO+cN61c94b3d/35SlIET9o9fX\n87arPNttyzMBmpU5xHjbZ3qJ5WgBNaDSjemyioIXKxH+jZ60dtzwbu8mwMMz\nh0dg5cuQ9h3TIAWOlITi+fik5JMXMxdlyFNEBkr/WJSH6dvrxlV1MMNuNBIC\njCdwCAx5R30YLIiCP51mIZB1itg5nnRsNA9o7nufC5wps4H9AhtfTmKwGyFw\nNiOle/Xrcm62FJ/V349qv+Fe98GBdkyo0lCRlW6SmxTxZdtVLVUpnykHiwoU\nM+wnQwwOX4XSDAV9hsMsBcBHSO2zMaAoI9bYEBRPnrdVPNxv2gkvXWYn3Ar/\n0IGlY+P9E7IdHfUVl9YGr8TxvZpRNTbXGMISrnmrtIyRcIZm/HKQjBfFYzHf\nxgC9TTYDQkVeUNgMyYpiBHn2Cd0bajwvrFbBX/kRC1oCed10O/1LEiRKxYj5\npuDc\r\n=+ySy\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQC6vw2Bfw3K3FGuyZHIfg5fpFcraCX3wJtN+aF3I9zrAwIgOyxomkqXfh2q/AvRtkFy8qOaQ6PY3boE2k2CymiCJWw="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "zhaohe",
+        "email": "843477271@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "zhaohe",
+            "email": "843477271@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/12.8rkzh_1.0.0_1607388732550_0.5715234580773993"
+    },
+    "_hasShrinkwrap": false
+}

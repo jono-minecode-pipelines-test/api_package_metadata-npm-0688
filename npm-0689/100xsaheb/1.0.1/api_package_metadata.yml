@@ -1,0 +1,48 @@
+{
+    "name": "100xsaheb",
+    "version": "1.0.1",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "zod": "^3.21.4"
+    },
+    "_id": "100xsaheb@1.0.1",
+    "gitHead": "fb48e37d95b11a774d4f03e88f4e02fd8e6b46ff",
+    "types": "./dist/index.d.ts",
+    "_nodeVersion": "20.11.0",
+    "_npmVersion": "10.2.4",
+    "dist": {
+        "integrity": "sha512-+Huga5ENapVZuV/w79n2I6+0WglhvRpcdkc23Iqc47uhbxiqwJyOroodjmn9GZTCSyijciMiLwoNpLodpcyh8w==",
+        "shasum": "b9fef34043c976e1d0392e7fa298e304f441a129",
+        "tarball": "https://registry.npmjs.org/100xsaheb/-/100xsaheb-1.0.1.tgz",
+        "fileCount": 4,
+        "unpackedSize": 13334,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIDcNfzBvG5Na/dcNGNT+hdDTttXKxY5FRDamgo9CqDESAiB7YfQIUFIA2gC/cJa5Iyzqnce9TfNqpnrE1V3FWZRnvg=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "saheb_hassan",
+        "email": "Sahebhassan1234@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "saheb_hassan",
+            "email": "Sahebhassan1234@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/100xsaheb_1.0.1_1711616778056_0.08814029451613292"
+    },
+    "_hasShrinkwrap": false
+}
