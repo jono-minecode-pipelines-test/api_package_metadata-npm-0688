@@ -1,0 +1,57 @@
+{
+    "name": "14grey",
+    "version": "1.0.1",
+    "description": "14\u7c92\u7070",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Muamu925/14grey.git"
+    },
+    "author": {
+        "name": "Muamu925"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Muamu925/14grey/issues"
+    },
+    "homepage": "https://github.com/Muamu925/14grey#readme",
+    "gitHead": "87c872c10b365547bafbd79ff14a00122c1be287",
+    "_id": "14grey@1.0.1",
+    "_nodeVersion": "16.17.0",
+    "_npmVersion": "9.1.2",
+    "dist": {
+        "integrity": "sha512-JXmTRwSUHXbT4Bdw72uhItjbgFdKKgjAW+r2pEGEE2i7irJcu0Oi/4tJ2ZqIFChRQoUBk/5wnJPPE1aZut+6/g==",
+        "shasum": "9527674bf8bf3a6a9530c7b11670c621e861030b",
+        "tarball": "https://registry.npmjs.org/14grey/-/14grey-1.0.1.tgz",
+        "fileCount": 59,
+        "unpackedSize": 10323884,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBjef8J8cZSRitZ/voD0Fs1AmwG0I7EYusNUtTmVMG4XAiEAxvcoFuHyNJyIEXguofdudKv9NWyrdhge0PcjYcS2Nak="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjg4c2ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq6Iw/9H3K8fnb6gMXLGgWrWOvTgzjWqbPHCcoP+cSZPZ7yrR/2FM3L\r\nnVSSrUBk9nYYcLk+0yi/mPClk6itw0eaKRVs41DujPMlGBHM77Za0oFSnXS0\r\nsdONr26i18TeGXwYZ6v0amnbbInc0pco9M+pUTHHhhvWlpRJDB6SG2ZJ2Grn\r\n5pRR5T99A1uiszju8EhAQ7mmicDhtVfDmdeUzb8Z4MsY7KdLHW2IZnJZuScy\r\npVeXw2IMcAkSkLMXe9ju2aLejPkDYL6wtaXGZkWlbwGTI4+TfkCDkAkHWGRq\r\nNkkTHXerSs/rj4UxSoPRsZSyIApSw6eBUWtWN4GGDIvIPXbSrNqqvSQQ0FMk\r\nh+7/IjMXRhXSVGQ4GNfjGnsk9OmzOCP70vfO4Y79mrtdlhcy5cwrHyFw3zVQ\r\nRwcJ1UQ0xnO/L8edT3+YSI8kliJwXvRZmLwmBx6bIQlHPWfhYM4wwLkigH9E\r\npL+6wavuPtxJ4cW9k22NwJN1yJ5N4Yy52lAmUMTBnEnSw6CI52W0cx2zGk8U\r\nkqtgd6x9eCRU77onEnYCt+lEFR39KDUhYR2JIZIZWJZy5QAVd9/A57UngzS2\r\ntBzrLz9fDkYl8iWjE2z9JgHQ1ih3de+FxahfGoNANty6XP2MuxISzuHf6pna\r\nRq/PjUahcxAIzgb3LfXi9hQf9Ne3jeVJRHg=\r\n=KfRY\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "mua123",
+        "email": "s20872958@126.com"
+    },
+    "maintainers": [
+        {
+            "name": "mua123",
+            "email": "s20872958@126.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/14grey_1.0.1_1669564213918_0.01783761112756621"
+    },
+    "_hasShrinkwrap": false
+}

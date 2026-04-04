@@ -1,0 +1,45 @@
+{
+    "name": "123-1233",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "_id": "123-1233@1.0.0",
+    "_npmVersion": "6.4.1",
+    "_nodeVersion": "10.13.0",
+    "_npmUser": {
+        "name": "songguoxing",
+        "email": "1427348939@qq.com"
+    },
+    "dist": {
+        "integrity": "sha512-RGbwXqiv3LmUdbIGDZ37GsprpOHO4pYFH0bCEJ5U0va+eEQJxpQFPSOeEZ+Aopsf7m2JhZF7XRbvuT+xWiBcXQ==",
+        "shasum": "198eaefb861f42ca16686cc0d22988502c0205e0",
+        "tarball": "https://registry.npmjs.org/123-1233/-/123-1233-1.0.0.tgz",
+        "fileCount": 2,
+        "unpackedSize": 2770,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbRkqCRA9TVsSAnZWagAAAKcP/ichAltxZUiviXrDPuce\n2OdxYFyb/d0wHlG2gbQq+ALDnCxupLRckIITNtNhq/IE9HPMlGH3mYfzER7o\nMegci5FrseHCJ3/SGE+ugtNNGN6MigK33i5szG93Ald5W0j2GpkSe16v+lxh\nhoQwJSIbcLB/PApDNMsnsIgoHAHuU4la6m9JzTRwDoYf78x7Yl4zuE7yutSc\nbjMnfS0fZYGTxEq5hX/n3PQQ7va30TbUvYLHnEuO3IMexhsNUI9DMiHjJUVG\nG7lQ70u2Yh/7QhbJsFq6QLY+Fo0hX1E1ao8LOhQnDwlqGAuOl7s1hkZho1Gn\nxssnZQxeWz0g+hec6/QK6psRUZ8VVZYSQ4Mk/1o4pejX6FNBimfKSir7A9Zb\nQR4cCKYVCF+aJu4AnU42M0/bno2as7iAcbvWwFjU/79O+ZnVkBr6TdLk2lel\n2/y2kJ0HCQKUCBTSx7Z869QWKmHyyGqkas5ruw6ZnjggbwExz6rUYNEP/Lq0\nHFyDssXDgEoLUF6+UZ/ccf3XWFJtWoi5TPGPVOMebGSG33d73tgAqu+YZFv+\nK1tV0eikzadMA4k/QZrLvT3BjTpzTCfIbFq+eV3ZtG88T5j2GZNAApn4WdyB\nDiUDlw2TmSa/E/j/B/D7JzXchMYoBLeJE+8Tm2JPL4tonwAwZMSdzQVoQqgV\nnWAE\r\n=CnTU\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDEdDcbmqVhOg7YIDNkDlm1VAN3BJ6HnLxvwlnp1LN/uQIhANJU6qU9ebPinM9BqbKeaeepFZ1jrBzmPmKLLBznT4ta"
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "songguoxing",
+            "email": "1427348939@qq.com"
+        }
+    ],
+    "directories": {},
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/123-1233_1.0.0_1567430954169_0.841413926768545"
+    },
+    "_hasShrinkwrap": false
+}

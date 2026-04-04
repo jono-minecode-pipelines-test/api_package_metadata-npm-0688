@@ -1,0 +1,82 @@
+{
+    "name": "12libs-react-components-template",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "\u4e00\u4e2a React \u7ec4\u4ef6\u5e93",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "./dist/types/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/types/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "keywords": [
+        "react",
+        "components",
+        "ui"
+    ],
+    "author": {
+        "name": "pasord"
+    },
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "peerDependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.17.0",
+        "@types/react": "^18.3.18",
+        "@types/react-dom": "^18.3.5",
+        "@vitejs/plugin-react": "^4.3.4",
+        "eslint": "^9.17.0",
+        "eslint-plugin-react-hooks": "^5.0.0",
+        "eslint-plugin-react-refresh": "^0.4.16",
+        "globals": "^15.14.0",
+        "typescript": "~5.6.2",
+        "typescript-eslint": "^8.18.2",
+        "vite": "^6.0.5",
+        "vite-plugin-dts": "^4.5.0"
+    },
+    "_id": "12libs-react-components-template@0.0.1",
+    "gitHead": "35a01d16eaf50ef87ae7b360b40ce4d9bc66c11b",
+    "_nodeVersion": "22.12.0",
+    "_npmVersion": "10.9.0",
+    "dist": {
+        "integrity": "sha512-Eb9LURxyJgbj3JAiJNTOs5q8O65MsiVp3W9q+JH1TUbrDIeqYPlrHFnZboZq8DtbJj8Vdlt/GIMrWz84Shdk+Q==",
+        "shasum": "9f8bb7c289ba648f3ec0d20ae1a4a0dee291c851",
+        "tarball": "https://registry.npmjs.org/12libs-react-components-template/-/12libs-react-components-template-0.0.1.tgz",
+        "fileCount": 5,
+        "unpackedSize": 130441,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIEHZJTfoR5Twmz+4MHNcD7KhXUoIkm0JyJmDlJqa3x9XAiEAg5sKw+RETc1SstFciYEvdwfyAHpidPzCPbobcxUsH6c="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "pasord",
+        "email": "1007593161@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "pasord",
+            "email": "1007593161@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages-npm-production",
+        "tmp": "tmp/12libs-react-components-template_0.0.1_1736650544685_0.27531808273951874"
+    },
+    "_hasShrinkwrap": false
+}

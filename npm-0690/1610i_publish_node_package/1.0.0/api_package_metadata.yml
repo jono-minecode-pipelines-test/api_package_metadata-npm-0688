@@ -1,0 +1,41 @@
+{
+    "name": "1610i_publish_node_package",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "_id": "1610i_publish_node_package@1.0.0",
+    "_shasum": "c79d24300428c292304429999be9c1aa3e0e3b9a",
+    "_from": ".",
+    "_npmVersion": "4.0.5",
+    "_nodeVersion": "7.4.0",
+    "_npmUser": {
+        "name": "daviekong",
+        "email": "iscooleye@163.com"
+    },
+    "dist": {
+        "shasum": "c79d24300428c292304429999be9c1aa3e0e3b9a",
+        "tarball": "https://registry.npmjs.org/1610i_publish_node_package/-/1610i_publish_node_package-1.0.0.tgz",
+        "integrity": "sha512-fj/hjGst0/ML8brlKZ3mUg3+H3mrBH6tlWwtYomOc7+8Ez0qSjQLxGz1oAqZZb5+s6bSa/rUrtiedkvAOvZaUQ==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIE5FH0tHWGjs91uv5CrEYVk5DbKoSDGxNxDxeI4PyR8YAiAAnXdbPhBmhoL9AA65gxbIlzR1RXZ3klh0LXavc5xx9w=="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "daviekong",
+            "email": "iscooleye@163.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/1610i_publish_node_package-1.0.0.tgz_1497324947209_0.5406277617439628"
+    }
+}

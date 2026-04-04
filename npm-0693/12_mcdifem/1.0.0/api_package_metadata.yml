@@ -1,0 +1,47 @@
+{
+    "name": "12_mcdifem",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "_id": "12_mcdifem@1.0.0",
+    "_nodeVersion": "16.13.0",
+    "_npmVersion": "8.3.0",
+    "dist": {
+        "integrity": "sha512-fCZxsu73ZyC6jt8etpI0Qk4dg3nl6Jp0dXhsTSvjMlbfA0ATS0jLzfI9LEyjiEu32la6omi48FAhyi143XXcUA==",
+        "shasum": "5aef3e7fc92f52a5878553bae421af8e7b092425",
+        "tarball": "https://registry.npmjs.org/12_mcdifem/-/12_mcdifem-1.0.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 403,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBpIjTAulhKVfPMVNMI1fj2SFjv74r1MGOoWOkXSlZjRAiEAoUxZPzSw70vckpUJAF8R53fJ1EZjxORogcmvTRaTerM="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjEGGaACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpYWRAAhiDjHtD0XCAKPF48B6cPk7BVjrWJopfI2SuIxEYvs2SXyYAb\r\nEl/RG0jysNt4cylWbX37IFPK9aWhM9tuNTZ4+8lNCopBZUUOeYXF6ZbrnVFE\r\nBnFWtBI8/hH2K7YmjZBlRSRDrhimwRsaiAUfmyNs4l9JRhQ4k1CA/gmIZqZA\r\nnmqQM1Eahq/1jGtnZ21rqgfqENNIew74WkGVqqNJT8vS5pOlvkjdenozs+iu\r\n/UKoIQ3+Q3kR+1HIO3izSyGwFs8YHZEOd2UZva/t9theCcoJdQ2TFQmYOBlm\r\nVH2lpURjJu5purSCD+LPmVLNyFh2idrR7w0lgkSUr1RtnM9YfEoibLZ7XSGI\r\n8eBzKvFvEuqvuEtAfNRFH+03ZSsR9NOZkwCwdqPnl2Di/ZVmBN+YlfQIgXjM\r\nuz0GcxzLeq9qpH9s/HI9+5cHj++g10Lgd4GDq8jtP3jvSB2icm8rkl5XVJ32\r\nJD0KXE93bSXNdqWErVnjhhXgL+/vaah7K8ID19ZUmAhBdZThzZJw0LlXJkfa\r\nhzoJzB8VnVw2BKF1yf6Tmh2rKgKyPm33Yt1J6iuf36vIqFQxvPtDep5S8+BU\r\nQpMkW7skyEP/ssBPiRv2+S+6+fjnk+FptxwFMBCBywZVWg7M8qkwXc7bGui0\r\nLeGbOknLsQXRruKY6NO5xd7n6xyQ7q/ureY=\r\n=Z4jt\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "mcdifem",
+        "email": "2218439240@qq.com"
+    },
+    "maintainers": [
+        {
+            "name": "mcdifem",
+            "email": "2218439240@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/12_mcdifem_1.0.0_1662017946483_0.5142257075130086"
+    },
+    "_hasShrinkwrap": false
+}

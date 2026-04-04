@@ -1,0 +1,55 @@
+{
+    "name": "1907a",
+    "version": "1.0.1",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "mycli": "aa.js",
+        "mycli2": "aa2.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^8.3.0",
+        "inquirer": "^8.2.0",
+        "ora": "^6.0.1"
+    },
+    "_id": "1907a@1.0.1",
+    "_nodeVersion": "14.17.6",
+    "_npmVersion": "6.14.15",
+    "dist": {
+        "integrity": "sha512-FDZDu+GNHlMLORCrcbG0lgzwlX0OFlb9IV0NDQzPoi49KSJgGyA1Qun3fpGUBBxW2HWHmVRKjWp/EDV0O2Pa8A==",
+        "shasum": "060144598ec544a2cb2b06043b8a868df3760873",
+        "tarball": "https://registry.npmjs.org/1907a/-/1907a-1.0.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 3420,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh1X/8CRA9TVsSAnZWagAAflIQAKLCtwtI03gJKgAdtjDx\nT+JjK2L4ua7aoTWXXoPbzelwr5N0u2RG+F8FGTMGsfCtGVWPCOKRKzbP8CTe\nbcjRxB0BG2hmXTELtDD9SmcTRucr2oCJi+BVrDxzAC1cVIzl/HF5yTuM/8vZ\n4XPlPhKTHBmBDiVwNpQ4t4+Qbw6VH8ZbKI8c0KxUMaUFl/JS/doBk+OkIukn\nl8DA1poRQ3mNOV0eLM0ZltRJWi4oxkM1alCCaRfRjlSWpY5ezM4JWw+Y0pFH\nybt+5eY4EoIBCyVG3LFN2usG+KlQ+cCiAgyFkLI7nkGw8KI6uA3rQBkH8Mut\nuQKM69oo8aMYc1ALSvUeFxkSU1tepvSXX1SVoJPaoP/tS18zhTxo4REnllJG\nCMP7r36+liiP25zAJFcSj+KrnxwHUVVPByAuRXPn/Mg5gS8WFHfcngRQoFlT\n4KkfsRB53AZtBDfHGrR2FUk5XCyh9DDZa7p8R7XtQUhuKuZbXIQHNQaPKl3H\nTEeP9XVQKK+sFFIg24p4wiqYnK86moIqjPlt8O/dDV73aeoSOzfTbMY+Wq9B\nBLRkSQlkgFTPwLZeeyj1K5vF/qXDqD51Be3LeRyhi6HxLaRuytguYiYs1KQ2\nggywglZTHWc/ciCVlbw4nRLeKVgi9NVQBn/WX2VR6/nkGi6MNIhJTt91OuzO\n+Ad8\r\n=/g0E\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCID9W3RppILUC30+/POzDQfLtIYDeeYpcMAJ35CyGOcGQAiBkjmZzqllspt3ks/I1xqGjJUAAu7KuVA3J/ZfLXBhdew=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "wzhn",
+        "email": "1070450532@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "wzhn",
+            "email": "1070450532@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/1907a_1.0.1_1641381884712_0.1450578505212834"
+    },
+    "_hasShrinkwrap": false
+}

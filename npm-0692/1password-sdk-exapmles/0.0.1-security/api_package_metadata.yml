@@ -1,0 +1,34 @@
+{
+    "name": "1password-sdk-exapmles",
+    "version": "0.0.1-security",
+    "description": "security holding package",
+    "repository": "npm/security-holder",
+    "_id": "1password-sdk-exapmles@0.0.1-security",
+    "_integrity": "sha512-A5A0bBcPhvJ6AvqEsj+XFxRAIZrZqDXButWujcYfQbQv8blRckpdapscNXRiOKwagoh3qFE2MSeu/dMoctmxNg==",
+    "_resolved": "/tmp/tmp-16-UMuDZlwUl0Dh",
+    "_from": "file:/tmp/tmp-16-UMuDZlwUl0Dh",
+    "dist": {
+        "tarball": "https://registry.npmjs.org/1password-sdk-exapmles/-/1password-sdk-exapmles-0.0.1-security.tgz",
+        "integrity": "sha512-A5A0bBcPhvJ6AvqEsj+XFxRAIZrZqDXButWujcYfQbQv8blRckpdapscNXRiOKwagoh3qFE2MSeu/dMoctmxNg==",
+        "shasum": "b3bc5aed693ae58fc391e986444e24e172dcf832",
+        "fileCount": 2,
+        "unpackedSize": 450,
+        "signatures": [
+            {
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+                "sig": "MEUCIQCa99b8hSM0ly3njHB3L7+R3JI0oh5Eo5sUhu8UfH6XogIgb04A5ur25AGD4QLki+6U4DMlnMyEJUMoMIU3fBcQCfU="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "npm",
+        "email": "npm@npmjs.com"
+    },
+    "directories": {},
+    "maintainers": [],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages-npm-production",
+        "tmp": "tmp/1password-sdk-exapmles_0.0.1-security_1737563311457_0.8291949571533566"
+    },
+    "_hasShrinkwrap": false
+}

@@ -1,0 +1,46 @@
+{
+    "name": "1belajar-nodejs-npm-library-doaibu",
+    "version": "1.0.0",
+    "author": {
+        "name": "doaibu"
+    },
+    "license": "ISC",
+    "_id": "1belajar-nodejs-npm-library-doaibu@1.0.0",
+    "maintainers": [
+        {
+            "name": "doaibu0000000",
+            "email": "doa.ibu0000000@gmail.com"
+        }
+    ],
+    "dist": {
+        "shasum": "0ec49eb86bc8c156749e38575bd46995b8de6cdb",
+        "tarball": "https://registry.npmjs.org/1belajar-nodejs-npm-library-doaibu/-/1belajar-nodejs-npm-library-doaibu-1.0.0.tgz",
+        "fileCount": 5,
+        "integrity": "sha512-sh/2ohRhV7wQ8Cp7RZXgn7D+QttVuyK4dY8vA+uyP3rcbtIz+ojbyttnmZvO9AcE2voXH9+XyN7h7yd2Rhxnsw==",
+        "signatures": [
+            {
+                "sig": "MEUCIQCU7l+G4G/X9t8rJFgq9WlHuVhwKqjYS58zxZl8bQGLKAIgdZs5k781K5cFs71uAaYjz72sx0RwkMMEbrI2+9lQMfM=",
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+        ],
+        "unpackedSize": 1540
+    },
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "_npmUser": {
+        "name": "doaibu0000000",
+        "email": "doa.ibu0000000@gmail.com"
+    },
+    "_npmVersion": "10.9.0",
+    "description": "Belajar NodeJS NPM",
+    "directories": {},
+    "_nodeVersion": "22.14.0",
+    "_hasShrinkwrap": false,
+    "_npmOperationalInternal": {
+        "tmp": "tmp/1belajar-nodejs-npm-library-doaibu_1.0.0_1746760123430_0.9839758904709315",
+        "host": "s3://npm-registry-packages-npm-production"
+    }
+}
