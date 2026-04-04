@@ -1,0 +1,46 @@
+{
+    "name": "011server",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Luan"
+    },
+    "license": "ISC",
+    "_id": "011server@1.0.0",
+    "_npmVersion": "6.4.1",
+    "_nodeVersion": "8.12.0",
+    "_npmUser": {
+        "name": "kxa1040",
+        "email": "kxa1040@yahoo.com"
+    },
+    "dist": {
+        "integrity": "sha512-Rxg2KLE89bRNtodn/j6fm4kXxM36lNTopaaA2gmss5ImngY90BxviIzY5fmIZfjfo3RJJfeRdZX5w0EGr4knqQ==",
+        "shasum": "c0131f7e8d3d15b835d1ef9d40f43837b699127f",
+        "tarball": "https://registry.npmjs.org/011server/-/011server-1.0.0.tgz",
+        "fileCount": 2,
+        "unpackedSize": 438,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb0IasCRA9TVsSAnZWagAA87AP/0DrR3xFuso1hrrTD/fu\nZds7Dpr182xnRQps11Vs8PKXZHl3sm4kxd98m0aujQ4IOhWiryGuXkVfH6mY\nBlxeaBD/oK07QpTlAY/ERllQI5SjEn3IZL8CUMpni3iQ509d1yCVVuMATo8l\nUPkU+7FGtCbwhbxHmzxHU2YZbkHSo0wxgkBA3TOtytyeynxE0RPKMgLj0ejA\nCe69CO/BhMFDdPAltDokqKKiztOcHcqbU0C+8iP43o5aPX6n0TOLiaJF560C\nXaylnIJ5ER0c71NxhHT+RjYDKOVEiZOUmWVFaMPWNDCDZLd+utx6oFqE1j31\niQLQERg4c7Pji8XRi5hOvUq3kxsGUOy5ApI1dSozyFZISoe9aPvdiv3Igqhd\nvnqlpqe1np6rjphyd8q6dFrw4gTrS6GYL/UueN972AznpjWiObrLAJYPxnyy\nWuD98vPht7LlEL6GpAdfWGv+YEZasKc8YUoExgwkBAI60fYZI3PHiBHMRbdd\n0Q36DGoGTFsZPq0LN+P0DouM6ZPZwKGtorSjTAKW8+Xzr3Id0HVTZdzebQE0\nLMLwCSJAm8KRtdRPBhn9k7Vqs+tQ1tp5ayulEzqzG73MlHBBkiu1imwXGNmQ\nJtuqjDv6HBEBrF1uVasTXYPAt6ryUy/rWfNoE5d3U9djPgQ0mYU9YYz0cuJN\nzpGk\r\n=U4nE\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIDr89NMtNVUevxi88YztcWMbbs+EOicSaNFxgYpIiq7bAiAa2i603pi13wzyiX1oCsR5p87xW9O/IeAUFWD6OAGQ/w=="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "kxa1040",
+            "email": "kxa1040@yahoo.com"
+        }
+    ],
+    "directories": {},
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/011server_1.0.0_1540392620454_0.0973649596067876"
+    },
+    "_hasShrinkwrap": false
+}

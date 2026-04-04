@@ -1,0 +1,154 @@
+{
+    "name": "--hoodmane-test-pyodide",
+    "version": "0.21.0",
+    "description": "The Pyodide JavaScript package",
+    "keywords": [
+        "python",
+        "webassembly"
+    ],
+    "homepage": "https://github.com/pyodide/pyodide",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pyodide/pyodide.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pyodide/pyodide/issues"
+    },
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^21.0.1",
+        "@rollup/plugin-node-resolve": "^13.1.3",
+        "@types/assert": "^1.5.6",
+        "@types/emscripten": "^1.39.5",
+        "@types/expect": "^24.3.0",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "^17.0.25",
+        "@types/node-fetch": "^2.6.1",
+        "@types/ws": "^8.5.3",
+        "chai": "^4.3.6",
+        "chai-as-promised": "^7.1.1",
+        "cross-env": "^7.0.3",
+        "dts-bundle-generator": "^6.7.0",
+        "error-stack-parser": "^2.0.6",
+        "express": "^4.17.3",
+        "mocha": "^9.0.2",
+        "npm-run-all": "^4.1.5",
+        "nyc": "^15.1.0",
+        "prettier": "^2.2.1",
+        "puppeteer": "^13.6.0",
+        "rollup": "^2.48.0",
+        "rollup-plugin-terser": "^7.0.2",
+        "rollup-plugin-ts": "^2.0.5",
+        "terser": "^5.7.0",
+        "ts-mocha": "^9.0.2",
+        "tsd": "^0.15.1",
+        "typedoc": "^0.22.15",
+        "typescript": "^4.6.4"
+    },
+    "main": "pyodide.js",
+    "exports": {
+        ".": {
+            "require": "./pyodide.js",
+            "import": "./pyodide.mjs"
+        },
+        "./pyodide.mjs": "./pyodide.mjs",
+        "./pyodide.js": "./pyodide.js",
+        "./package.json": "./package.json"
+    },
+    "browser": {
+        "child_process": false,
+        "crypto": false,
+        "fs": false,
+        "fs/promises": false,
+        "path": false,
+        "vm": false,
+        "ws": false
+    },
+    "scripts": {
+        "test": "npm-run-all test:*",
+        "test:unit": "cross-env TEST_NODE=1 ts-mocha -p tsconfig.test.json test/unit/**/*.test.ts",
+        "test:node": "cross-env TEST_NODE=1 mocha test/integration/**/*.test.js",
+        "test:browser": "mocha test/integration/**/*.test.js",
+        "coverage": "cross-env TEST_NODE=1 npm-run-all coverage:*",
+        "coverage:build": "nyc npm run test:node"
+    },
+    "mocha": {
+        "bail": false,
+        "timeout": 30000,
+        "full-trace": true,
+        "inline-diffs": true,
+        "check-leaks": false,
+        "global": [
+            "pyodide",
+            "page",
+            "chai"
+        ],
+        "file": [
+            "test/conftest.js"
+        ]
+    },
+    "nyc": {
+        "reporter": [
+            "html",
+            "text-summary"
+        ],
+        "include": [
+            "*.ts"
+        ],
+        "all": true,
+        "clean": true,
+        "cache": false,
+        "instrument": false,
+        "checkCoverage": true,
+        "statements": 95,
+        "functions": 95,
+        "branches": 80,
+        "lines": 95
+    },
+    "tsd": {
+        "compilerOptions": {
+            "lib": [
+                "ES2017",
+                "DOM"
+            ]
+        }
+    },
+    "dependencies": {
+        "base-64": "^1.0.0",
+        "node-fetch": "^2.6.1",
+        "ws": "^8.5.0"
+    },
+    "_id": "--hoodmane-test-pyodide@0.21.0",
+    "_nodeVersion": "14.4.0",
+    "_npmVersion": "6.14.5",
+    "_npmUser": {
+        "name": "hoodmane",
+        "email": "roberthoodchatham@gmail.com"
+    },
+    "dist": {
+        "integrity": "sha512-mGKY+C4pNony8vLxZ9NR0Nf2fHy0aRPG4rt4KuQclsnOPeqpRBka+RmzC08o7qtXFa+Augs7ED8jEHsNAB8aNw==",
+        "shasum": "f3e91df7a5d90934b1080a38cb0e755a7fea4d37",
+        "tarball": "https://registry.npmjs.org/--hoodmane-test-pyodide/-/--hoodmane-test-pyodide-0.21.0.tgz",
+        "fileCount": 12,
+        "unpackedSize": 17510308,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIE9ZulSNhn7VS2OafAJ+lNyl1E8TmxoE6aEB8Dup9qmWAiBzZi6pZk2hTAx92d6EyTtGCFR2peLbydLVURiHgU8oIw=="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJitN89ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqDEw//S0R1pAjSfu5veS9b/e2M7J1HRWl/VpP7WRhFDRHzJU38mNft\r\nDKM3lnuwGVQfYsIxw3PY5+RCEmqOMKzp7+zCXP6BEDbvRliFz9gVty7jB3Xx\r\nwA1GN4c4vmt2UaLfdrYr81B5azxs+WB1PCz2hpP6ccaYBpsil1tJLuxWyWvl\r\nX/HAh8ijVKNzvW4Smo14o/GAQuoLogHYHfK6zzQV6F3d5Ri5OJLlHO3QkDEf\r\naia0V56UtmDj+WSejzEOYqB6gMFL7k4YvpUD/+yg/PNHvfJ9lnwZpbezodsB\r\nWtJ5jGln6ALMtr7GmINZbNOi79oHNRS3ttodu/hftKa9+f/NsMnj6/2dEzfF\r\nSA4QoysI3M86KYd8V0YHqs6oECm/vWLfP9h0XpPJHTSZKA4ZDMDCDFt5mAGE\r\nv0VBu5jYeVsReVCm7ewR79C6JFJQKD684XLJgsKFQaQva+2qkU1din2M8pU8\r\numtHRF6Rsn/zUukdMwj0W5bDw3ifTxdATIcZz77au2mN++qfAuYqj2I0t2Uq\r\nrllHfT+LlteCk0NNdO35EyTeQUYI/DcrN5x+Oco8r2VFyG77uzMPlfeyzBpx\r\ne/2e68aenhIXhtOB+1KKPQ0cQU0HrJNE+Ge38u0cyTacU6DggJVeCqedSUBn\r\nJPwmnjaredyZrtWc7nodNzlQYdcHoOTyuvQ=\r\n=JF8S\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "hoodmane",
+            "email": "roberthoodchatham@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/--hoodmane-test-pyodide_0.21.0_1656020797126_0.30320479201536155"
+    },
+    "_hasShrinkwrap": false
+}

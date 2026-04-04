@@ -1,0 +1,89 @@
+{
+    "name": "--hoodmane-test-pyodide",
+    "version": "0.1.1-alpha.3",
+    "description": "The Pyodide JavaScript package",
+    "keywords": [
+        "python",
+        "webassembly"
+    ],
+    "homepage": "https://github.com/pyodide/pyodide",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pyodide/pyodide.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pyodide/pyodide/issues"
+    },
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^21.0.1",
+        "@rollup/plugin-node-resolve": "^13.1.3",
+        "@types/emscripten": "^1.39.5",
+        "@types/node-fetch": "^3.0.3",
+        "error-stack-parser": "^2.0.6",
+        "mocha": "^9.0.2",
+        "prettier": "^2.2.1",
+        "rollup": "^2.48.0",
+        "rollup-plugin-terser": "^7.0.2",
+        "rollup-plugin-ts": "^2.0.5",
+        "terser": "^5.7.0",
+        "ts-node": "^10.4.0",
+        "tsd": "^0.15.1",
+        "typescript": "^4.2.4",
+        "typedoc": "^0.22.11"
+    },
+    "type": "module",
+    "main": "pyodide.mjs",
+    "scripts": {
+        "test": "mocha --loader node_modules/ts-node/dist/esm.js"
+    },
+    "mocha": {
+        "timeout": 30000,
+        "file": "./test/conftest.mjs"
+    },
+    "tsd": {
+        "compilerOptions": {
+            "lib": [
+                "ES2018",
+                "DOM"
+            ]
+        }
+    },
+    "dependencies": {
+        "base-64": "^1.0.0",
+        "node-fetch": "^2.6.1"
+    },
+    "_id": "--hoodmane-test-pyodide@0.1.1-alpha.3",
+    "_nodeVersion": "14.4.0",
+    "_npmVersion": "6.14.5",
+    "dist": {
+        "integrity": "sha512-qt2+id/Fo7p/XTcuq7nONBY1zhZSVHHE7nVaH3UdwHD4/J6YqbZ+m7F9U7e0OWCP0AO128ZGuhzIZk5NAWS5xw==",
+        "shasum": "23a411204190bd396f4bc49d2467d5a69311a350",
+        "tarball": "https://registry.npmjs.org/--hoodmane-test-pyodide/-/--hoodmane-test-pyodide-0.1.1-alpha.3.tgz",
+        "fileCount": 18,
+        "unpackedSize": 42794270,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQCoTXaqYfuuiKNub5WzEj4lx1k55EoNkyivfMAAE4xTVgIgf9/VDiLQa6zFnbwifZPCQBU/O5F50dDB6/Mpo5mR9mU="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiVMiFACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoERg/8Dsp9KBqoOkWmns70GRCh9WyDea4FtYOrRhV36NjFVeq2tg52\r\nZv/FWmNwCN5ZQzBUtGNqUs9A59N8iXWFtPFl5pHAPyEQL+80ouX4B29+SUlH\r\n3e23Lb6mH6ax1PcD5XRflNEiRj/617Ea9qtAcyfv8MxwUUxo9o6SStAhn6/t\r\nzmac6b5LooR2oZKtXk7CoLNvtP8U6tjTGzAwe/YrCAnBqehJWZn5Yj3d/SxA\r\nyZr+GwTSTCvVWA0xZP+iXpkY7IL1p8JC89lHDtUAD+YG/4A4AW3CsZx6hrnl\r\n6eJroy/5BgWEBshFEiPizAGJEWbIFWaCYpKfF6fPD1aWFjgSpA7ysOd1rCB7\r\n2KXhAUbVBKZCIlwpXF2dNMgO1ZzZk0yEKzl+VQ2KfK5tvwZUUZ9rnHfwy4mf\r\n4nNCvZ47fTB4TFjW6QBywpUs812URrpR3GKybjQEX9CDZARIRj86nWOAD0OW\r\nO85qZOjgVTN983p+4XtYuz8tsWshuzbLLbCi/ntLkWR6twDXDKvS5ZpSrdLs\r\nq/miNz7nhqaMYTQAtpr/uDDa+PGLmWymN4sNwR4h2joT423mZReOikC2vm/2\r\nHAyDvGxmkjbI/2MGzEmZ9tJeCfDtfLhuFwkSH5bzFI3dgmCOya4W51rVptYC\r\n+/dxJmXV4dXzqIYK+FH6IqrlR6wnrXjuve0=\r\n=jiJD\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "hoodmane",
+        "email": "roberthoodchatham@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "hoodmane",
+            "email": "roberthoodchatham@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/--hoodmane-test-pyodide_0.1.1-alpha.3_1649723524734_0.8621584139793166"
+    },
+    "_hasShrinkwrap": false
+}

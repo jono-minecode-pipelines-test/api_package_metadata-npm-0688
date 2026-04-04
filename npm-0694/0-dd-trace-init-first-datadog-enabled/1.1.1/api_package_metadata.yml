@@ -1,0 +1,65 @@
+{
+    "name": "0-dd-trace-init-first-datadog-enabled",
+    "version": "1.1.1",
+    "description": "A package that initializes dd trace when the `DATADOG_ENABLED true` is an environment variable, (and is lexographically superior, so that it is sorted to be \"first\")",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dave-inc/-dd-trace-init-first-production.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublishOnly": "tsc --declaration index.ts"
+    },
+    "keywords": [
+        "dd-trace",
+        "init"
+    ],
+    "author": {
+        "name": "McKay Salisbury"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "dd-trace": ">= 0.9.1"
+    },
+    "dependencies": {},
+    "gitHead": "76d230f5235353d34fa013598c817545d6beec12",
+    "bugs": {
+        "url": "https://github.com/dave-inc/-dd-trace-init-first-production/issues"
+    },
+    "homepage": "https://github.com/dave-inc/-dd-trace-init-first-production#readme",
+    "_id": "0-dd-trace-init-first-datadog-enabled@1.1.1",
+    "_nodeVersion": "10.19.0",
+    "_npmVersion": "6.13.4",
+    "dist": {
+        "integrity": "sha512-3T+SmM+44W3HaA2eJDiLGeaBQHMrxe/9QnpW/54+FVi/UasR+p3Sj9ilAglYaTgWJbtYD3ZHEoUpK6fEs9E1Yg==",
+        "shasum": "612336880fd22668c1e5bdb70978e1c295f7d790",
+        "tarball": "https://registry.npmjs.org/0-dd-trace-init-first-datadog-enabled/-/0-dd-trace-init-first-datadog-enabled-1.1.1.tgz",
+        "fileCount": 5,
+        "unpackedSize": 2279,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe2osGCRA9TVsSAnZWagAAR64P+wXmkjt1IcF64laGZgF9\nJKA0KwQkyj6zCOrdLLE9V6vVdBH+MCKg+7FsjCUxbN8bbhTRdnzI9GHVcL5a\nm1qUzYJ/B68GjeQ3FStIwzW9rwxp8wYjq0IJJF3v5Pc4Uy9Bk+5f9fYPTCu+\n8c4zl+nWEWka1zgdPhJ6WwnZFB/wEV9ANqCo3cbgr1biGyOOCFiSRENc6290\n+iUiBmc+Jn9Ab3V9tv3AUzYaOFioBUScmGoF82WXMv8gNpftjq4awodetf+a\nk2ucyY8XI3lQu3BOYeuXr1HeNEX/jTESbf9j5kY9nXU5GuCtY7lQsb6SPhND\nu/1e4z69acWBXwyXrmwnaX8bB5SjxPh8I3Ohnm7XkHO8aH/YctmiLwW8wmfV\nzJM2Fx62JUVP8oLdbZmqCwpCdjkPDjuXvWMvRm/iZSHOgO5R6icYWWfsNq2I\nWg93EaXZVNkcd3Um0z5YPs3ekYEWoxSbs1o3pgeOt5JbxknN8lGavvvHDm5n\nHweRuuyTx2INv2LfRgmnxsv4fgwH9ncJDNmgFrljjDOEcdAcjQ7S4bQq9DVW\nvpECjzcynmpq3SyzGzWJE1FricRtMPCJr+Kz2asOFqRgAa8Rx5GwhtDTXTIR\n/LxKNyRtZOoBTsSL+E7h/Yn2rlHg25ZYEbt9dUhk+MlUmoYwSGGOHeYCZCw3\nOSPF\r\n=dkbJ\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCgivKUkufhOTYZuRD6FPoFTVjXtyC4aGPAiVv6Mp8lkgIhAJfVbiy0q21aSkUX1noei2OseN5Tuv/YgMxxXUnik9aP"
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "mckaysalisbury",
+            "email": "mckaysalisbury@hotmail.com"
+        }
+    ],
+    "_npmUser": {
+        "name": "mckaysalisbury",
+        "email": "mckaysalisbury@hotmail.com"
+    },
+    "directories": {},
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0-dd-trace-init-first-datadog-enabled_1.1.1_1591380742075_0.30167010497004787"
+    },
+    "_hasShrinkwrap": false
+}
