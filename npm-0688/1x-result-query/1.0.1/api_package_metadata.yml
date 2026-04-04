@@ -1,0 +1,54 @@
+{
+    "name": "1x-result-query",
+    "version": "1.0.1",
+    "_id": "1x-result-query@1.0.1",
+    "maintainers": [
+        {
+            "name": "oyps",
+            "email": "ponconsoft@gmail.com"
+        }
+    ],
+    "bin": {
+        "1x-result-query": "dist/cli.mjs"
+    },
+    "dist": {
+        "shasum": "c3d37051241ceef5e217154d6080d21eb4009625",
+        "tarball": "https://registry.npmjs.org/1x-result-query/-/1x-result-query-1.0.1.tgz",
+        "fileCount": 9,
+        "integrity": "sha512-cDRRlBJS4eglKgDreo+HAsdQfrvRquHoTwcW7/jcS4VqebBsj+0Uq0BWpQ8jlrdB3jY7AqF9I9Y+hb0ibdwnIg==",
+        "signatures": [
+            {
+                "sig": "MEUCIQDAaHiiL39ZCOteWEM+yIhRCBQNFA837Y7tzz/vVaVBXwIgV3iDIuRXQMNsJO3pIdgVh7nXVCpU3sxoDhjJxShSRXE=",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 15272
+    },
+    "type": "module",
+    "_from": "file:1x-result-query-v1.0.1.tgz",
+    "exports": "./dist/index.mjs",
+    "scripts": {
+        "build": "pkgroll --minify --clean-dist --sourcemap"
+    },
+    "_npmUser": {
+        "name": "oyps",
+        "email": "ponconsoft@gmail.com"
+    },
+    "_resolved": "C:\\Users\\ponco\\AppData\\Local\\Temp\\e8002ee3faeaceb789f490c06ac1fb8d\\1x-result-query-v1.0.1.tgz",
+    "_integrity": "sha512-cDRRlBJS4eglKgDreo+HAsdQfrvRquHoTwcW7/jcS4VqebBsj+0Uq0BWpQ8jlrdB3jY7AqF9I9Y+hb0ibdwnIg==",
+    "_npmVersion": "10.8.2",
+    "description": "\u6279\u91cf\u67e5\u8be2\u6587\u4ef6\u5939\u4e2d\u7684\u51c6\u8003\u8bc1\u6210\u7ee9\u3002",
+    "directories": {},
+    "_nodeVersion": "22.7.0",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "p-queue": "^8.0.1",
+        "pdfjs-dist": "^4.5.136",
+        "@types/node": "^22.5.0"
+    },
+    "_hasShrinkwrap": false,
+    "_npmOperationalInternal": {
+        "tmp": "tmp/1x-result-query_1.0.1_1724420487650_0.8432473616805085",
+        "host": "s3://npm-registry-packages"
+    }
+}

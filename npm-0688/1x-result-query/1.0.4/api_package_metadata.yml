@@ -1,0 +1,59 @@
+{
+    "name": "1x-result-query",
+    "version": "1.0.4",
+    "types": "./dist/index.d.mts",
+    "dependencies": {
+        "@types/node": "^22.5.0",
+        "@ungap/with-resolvers": "^0.1.0",
+        "chalk": "^5.3.0",
+        "p-queue": "^8.0.1",
+        "pdfjs-dist": "^4.5.136"
+    },
+    "type": "module",
+    "exports": "./dist/index.mjs",
+    "bin": {
+        "1x-result-query": "dist/cli.mjs"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    },
+    "scripts": {
+        "build": "pkgroll --minify --clean-dist --sourcemap"
+    },
+    "_id": "1x-result-query@1.0.4",
+    "description": "1. \u5c06\u9700\u8981\u67e5\u8be2\u7684\u5168\u90e8\u51c6\u8003\u8bc1\u653e\u5165\u7a7a\u6587\u4ef6\u5939\uff0c\u4f8b\u5982\uff1a",
+    "_integrity": "sha512-1r+4wUPCSRJYntjful9QuNyYGFv/EObfHr+IL7iu//+ibxaEAOjmjqNI6gHGTnVcpzdnFdy8UrJ0c0X/y1PmlQ==",
+    "_resolved": "C:\\Users\\ponco\\AppData\\Local\\Temp\\3ee6443d9101369c6c9ebeadd6975172\\1x-result-query-v1.0.4.tgz",
+    "_from": "file:1x-result-query-v1.0.4.tgz",
+    "_nodeVersion": "20.17.0",
+    "_npmVersion": "10.8.2",
+    "dist": {
+        "integrity": "sha512-1r+4wUPCSRJYntjful9QuNyYGFv/EObfHr+IL7iu//+ibxaEAOjmjqNI6gHGTnVcpzdnFdy8UrJ0c0X/y1PmlQ==",
+        "shasum": "657a7e68c7f661f0466a383803f3b76cc0185636",
+        "tarball": "https://registry.npmjs.org/1x-result-query/-/1x-result-query-1.0.4.tgz",
+        "fileCount": 10,
+        "unpackedSize": 15739,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIETjs7Sx94/LjpuNN+FShf7Lru+wsWFnNSLMxdfGVx1AAiB0V4aj2JE0X1V3aM02+08ucXl3fjj3LcLMxyJFQcJrAA=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "oyps",
+        "email": "ponconsoft@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "oyps",
+            "email": "ponconsoft@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/1x-result-query_1.0.4_1724423426519_0.5474115648463767"
+    },
+    "_hasShrinkwrap": false
+}

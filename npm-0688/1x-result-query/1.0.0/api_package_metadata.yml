@@ -1,0 +1,69 @@
+{
+    "name": "1x-result-query",
+    "version": "1.0.0",
+    "_id": "1x-result-query@1.0.0",
+    "maintainers": [
+        {
+            "name": "oyps",
+            "email": "ponconsoft@gmail.com"
+        }
+    ],
+    "bin": {
+        "1x-result-query": "dist/cli.mjs"
+    },
+    "dist": {
+        "shasum": "ce7a7e8459ca5e907bb72fd3bc1761916a59a24c",
+        "tarball": "https://registry.npmjs.org/1x-result-query/-/1x-result-query-1.0.0.tgz",
+        "fileCount": 15,
+        "integrity": "sha512-MAl0/rCG7SWk0X/DSCxZ1ePBM57bn4mp27IdFAljUSNU6fI5eww0TB78DNn4BoYWFo8qvAipJs17I0Vz/4Kabw==",
+        "signatures": [
+            {
+                "sig": "MEUCIQDvtAmXYeXTyIgB7yx8RKTusn4DKgQzLkenKxi0ErPm0wIgAcNfxWwjvR43cH8EWIdsSo3NuiJlS2xJCo0HueTGakc=",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 26748
+    },
+    "main": "./dist/index.cjs",
+    "type": "module",
+    "_from": "file:1x-result-query-v1.0.0.tgz",
+    "types": "./dist/index.d.cts",
+    "module": "./dist/index.mjs",
+    "exports": {
+        "import": {
+            "types": "./dist/index.d.mts",
+            "default": "./dist/index.mjs"
+        },
+        "require": {
+            "types": "./dist/index.d.cts",
+            "default": "./dist/index.cjs"
+        }
+    },
+    "scripts": {
+        "build": "pkgroll --minify --clean-dist --sourcemap"
+    },
+    "_npmUser": {
+        "name": "oyps",
+        "email": "ponconsoft@gmail.com"
+    },
+    "_resolved": "C:\\Users\\ponco\\AppData\\Local\\Temp\\cf351506d32116146375eedff37d5c31\\1x-result-query-v1.0.0.tgz",
+    "_integrity": "sha512-MAl0/rCG7SWk0X/DSCxZ1ePBM57bn4mp27IdFAljUSNU6fI5eww0TB78DNn4BoYWFo8qvAipJs17I0Vz/4Kabw==",
+    "_npmVersion": "10.8.2",
+    "description": "\u6279\u91cf\u67e5\u8be2\u6587\u4ef6\u5939\u4e2d\u7684\u51c6\u8003\u8bc1\u6210\u7ee9\u3002",
+    "directories": {},
+    "_nodeVersion": "22.7.0",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "p-queue": "^8.0.1",
+        "pdfjs-dist": "^4.5.136",
+        "@types/node": "^22.5.0"
+    },
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/1x-result-query_1.0.0_1724420138078_0.36709294241055024",
+        "host": "s3://npm-registry-packages"
+    }
+}
