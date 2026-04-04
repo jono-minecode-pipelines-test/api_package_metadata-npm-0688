@@ -1,0 +1,47 @@
+{
+    "name": "03-custom-zxx",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "_id": "03-custom-zxx@1.0.0",
+    "_nodeVersion": "18.15.0",
+    "_npmVersion": "9.5.0",
+    "dist": {
+        "integrity": "sha512-7/KVUXjTk913G41oXRkIFVPq5eX4U9zZrS0JVJAoAxoqWzOVAAxqrTX5h+MB5LI9iivblZltYvkDDvT0/QeMPA==",
+        "shasum": "1ec512cc7523cf403f7685e9431bb21a1c470d5e",
+        "tarball": "https://registry.npmjs.org/03-custom-zxx/-/03-custom-zxx-1.0.0.tgz",
+        "fileCount": 2,
+        "unpackedSize": 402,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDdzeST8mpJFaYDscr73v4I+S4/AgSDEB5BC9C6+Ese1gIgHTOo4/VywaKAuC5gQHBCb9hWHU/Ideq8BbBWHvdm3xg="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "zuoxinshidashuaige",
+        "email": "2513612351@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "zuoxinshidashuaige",
+            "email": "2513612351@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/03-custom-zxx_1.0.0_1687614324856_0.37529299764284385"
+    },
+    "_hasShrinkwrap": false
+}
