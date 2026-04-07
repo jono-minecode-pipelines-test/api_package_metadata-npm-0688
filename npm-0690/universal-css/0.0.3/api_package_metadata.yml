@@ -1,0 +1,89 @@
+{
+    "name": "universal-css",
+    "version": "0.0.3",
+    "description": "Universal css/scss/less loader for critical path css in universal/isomorphic React apps",
+    "main": "lib/index.js",
+    "jsnext:main": "es6/index",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grgur/universal-css.git"
+    },
+    "scripts": {
+        "build": "npm run build-cjs && npm run build-es6",
+        "build-es6": "rimraf es6 && babel ./src -d es6 --presets react,es2015-native-modules,stage-0 --no-babelrc",
+        "build-cjs": "rimraf lib && babel ./src -d lib"
+    },
+    "author": {
+        "name": "Grgur Grisogono"
+    },
+    "license": "MIT",
+    "keywords": [
+        "webpack",
+        "webpack-loader",
+        "webpack loader",
+        "loader",
+        "critical path",
+        "style-loader",
+        "style loader",
+        "react",
+        "reactjs",
+        "isomorphic",
+        "universal",
+        "css",
+        "scss",
+        "style",
+        "styles"
+    ],
+    "peerDependencies": {
+        "react": "^0.14.0",
+        "webpack": "^1.12.0"
+    },
+    "dependencies": {
+        "babel-runtime": "^6.6.1",
+        "loader-utils": "^0.2.14"
+    },
+    "devDependencies": {
+        "babel": "^6.5.2",
+        "babel-cli": "^6.6.5",
+        "babel-preset-es2015": "^6.6.0",
+        "babel-preset-es2015-native-modules": "^6.6.0",
+        "babel-preset-react": "^6.5.0",
+        "babel-preset-stage-0": "^6.5.0",
+        "rimraf": "^2.5.2"
+    },
+    "gitHead": "b21422ca0992d951fad1537d2806fe11e7ddf3d8",
+    "bugs": {
+        "url": "https://github.com/grgur/universal-css/issues"
+    },
+    "homepage": "https://github.com/grgur/universal-css#readme",
+    "_id": "universal-css@0.0.3",
+    "_shasum": "39f7694012f5fbbd7b5e72012f583f52581bd837",
+    "_from": ".",
+    "_npmVersion": "3.7.3",
+    "_nodeVersion": "5.9.1",
+    "_npmUser": {
+        "name": "grgur",
+        "email": "grguru@gmail.com"
+    },
+    "dist": {
+        "shasum": "39f7694012f5fbbd7b5e72012f583f52581bd837",
+        "tarball": "https://registry.npmjs.org/universal-css/-/universal-css-0.0.3.tgz",
+        "integrity": "sha512-sK066RC15ZMK4Iog9WbVSIq59JVJcub63orkbVGHzujXKfhEmamTlfrq7d6Oo6X/g0aSeodH0CzJ9pajmW1qzg==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCM0XeNPrKWuYjyZPXZVRzkF5DAP/6Nog3yzcptw3dKcAIhAN5Nykvci+poBFlzhD/vD/wQRPseqlD/PgacNjO6SQPh"
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "grgur",
+            "email": "grguru@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/universal-css-0.0.3.tgz_1461258756295_0.794861996313557"
+    }
+}
